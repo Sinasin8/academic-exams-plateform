@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<body>
+    <form action="sign.sql">
+        <label for="name">First name</label> <br>
+        <input type="text" id="name" name="first name" required!>
+        <br>
+        <label for="namel">last name</label> <br>
+        <input type="text" id="namel" name="last name" required!>
+        <br>
+        <label for="username">username</label> <br>
+        <input type="text" name="username" id="username" required!>
+        <br>
+        <label for="email">Email</label> <br>
+        <input type="email" name="email" id="email" required!>
+        <br>
+        <label for="password">Create a password</label> <br>
+        <input type="password" name="password" id="password" required!>
+        <br>
+        <label for="password">Confirm  your password</label><br>
+        <input type="password" name="confirm password" id="password" required!>
+        <br>
+        <label for="number">Phone number</label> <br>
+        <input type="number" name="phone number" id="number" required!>
+        <br>
+        <label for="user_type">I am a:</label>
+        <select name="user_type" id="user_type" required>
+        <option value="">-- Select --</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        </select> <br>
+        <button type="submit">Log In</button>
+    </form>
+
+</body>
+</html>
